@@ -10,4 +10,4 @@ A quiz app which tests your grip on technology.
 - CSS
 - JavaScript
 
-To view the app [Click here]()
+To view the app [Click here](https://tech-quiz-kishore.netlify.app/)
