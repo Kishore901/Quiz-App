@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@500;700&family=Permanent+Marker&family=Sacramento&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", serif;
+}
+
+.main {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9e9dfec;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 300;
+  font-size: 3.125rem;
+  padding: 20px;
+  text-align: center;
+  color: #278be9;
+}
+
+h2 {
+  margin-bottom: 50px;
+  margin-left: 50px;
+  color: white;
+}
+.form {
+  padding: 2rem;
+  background-color: #278be9;
+}
+.form div {
+  margin: 20px 50px;
+  /* margin-left: 50px; */
+  color: white;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.btn:hover {
+  background-color: #afb6b2ec;
+  /* color: white; */
+  margin-top: 2px;
+}
+
+div.result {
+  font-size: 20px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  word-spacing: 5px;
+  display: none;
+  background-color: #e9f1ec;
+  color: #278be9;
+}
+span {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form div {
+    margin: 20px 10px;
+  }
+}
